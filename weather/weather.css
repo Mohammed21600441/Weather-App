@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  background-color: skyblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.weather {
+  width: 29em;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20em;
+  background-color: whitesmoke;
+  align-items: center;
+  position: absolute;
+  left: 50rem;
+  border: none;
+  border-radius: 10px;
+  border-style: solid 1px;
+  padding: 40px;
+}
+h1 {
+  position: absolute;
+  color: skyblue;
+  top: 10px;
+  left: 70px;
+  border: none;
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom-left-radius: 10px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.input {
+  height: 3rem;
+  width: 20rem;
+  border: solid;
+  border-bottom: solid skyblue;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  outline: none;
+}
+button:hover {
+  background-color: skyblue;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+h1:hover{
+font-weight: bolder; color: rgb(30, 40, 50);}
+i{
+    position: fixed;
+    top: 20.5rem;
+    left: 51rem;
+    font-size: 3rem;
+    color: skyblue;
+    cursor: pointer;
+}
+i:hover{
+    font-weight: bolder; color: rgb(30, 40, 50);
+
+}
+
+
